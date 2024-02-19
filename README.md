@@ -7,4 +7,23 @@ For example, a typical round of fizz buzz would start as follows:
 
 FIZZ_BUZZ_GAME(with only one winner):
 - INPUT:
-  Initially, user 
+  Initially, user asked if the player/players is/are ready to start the game.
+  - Once, the user confirms - the game starts. The user asked for entering the number of players playing the game and the names of the players. As the name of the player is displayed, he/she is supposed to give his /her answer(be it a number or fizz or buzz or fizzbuzz) and the game goes on.
+  - But if the user denies to start the game - the programs stops immediately.
+
+- OUTPUT:
+  - As the game starts and as the name of the player is displayed, he/she is supposed to give his /her answer(be it a number or fizz or buzz or fizzbuzz).
+  - Each time the player enters the answer - the answer is checked if the player has entered right answer.
+  - According to the game rules, any number divisible by three is replaced by the word fizz and any number divisible by five by the word buzz. Numbers divisible by both three and five (i.e. divisible by fifteen) become fizz buzz. A player who hesitates or makes a mistake is eliminated and the games restarts with the remaining players.
+  - The game goes on until, we get a winner!
+
+FIZZ_BUZZ_GAME(MORE THAN ONE WINNER):
+- INPUT:
+  Initially, user asked if the player/players is/are ready to start the game.
+  - Once, the user confirms - the game starts. The user asked for entering the number of players playing the game, the names of the players and the starting and the ending number for the game. As the name of the player is displayed, he/she is supposed to give his /her answer(be it a number or fizz or buzz or fizzbuzz) and the game goes on.
+  - But if the user denies to start the game - the programs stops immediately.
+- OUTPUT:
+  - As the game starts and as the name of the player is displayed, he/she is supposed to give his /her answer(be it a number or fizz or buzz or fizzbuzz).
+  - Each time the player enters the answer - the answer is checked if the player has entered right answer.
+  - According to the game rules, any number divisible by three is replaced by the word fizz and any number divisible by five by the word buzz. Numbers divisible by both three and five (i.e. divisible by fifteen) become fizz buzz. A player who hesitates or makes a mistake is eliminated and the games restarts with the remaining players.
+  - The game goes on until the ending number has come and finally names of the winners are displayed.
