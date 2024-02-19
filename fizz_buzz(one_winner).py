@@ -15,7 +15,7 @@ while True:
   #if yes - this block is executed ----
   if ask=='y' or ask=='Y':
     print("HOW TO PLAY : ")
-    print("You are suppose to enter the starting and the ending number.")
+    print()
     print("Now, Players take turns to count incrementally, replacing any number divisible by three with the word 'FIZZ', and any number divisible by five with the word 'BUZZ', and any number divisible by both three and five with the word 'FIZZBUZZ'.")
     print()
     no_of_players=int(input("enter the number of players playing the game : ")) #asking for the number of players playing the game.
